@@ -1,0 +1,86 @@
+.header {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.header__searchIcon {
+  background-color: #cd9042;
+  height: 22px !important;
+  padding: 5px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+}
+
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__optionOne {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.header__optionTwo {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.header__basketContainer {
+  display: flex;
+  align-items: center;
+}
+
+.header__basketCount {
+  position: absolute;
+  right: 40px;
+  top: 9px;
+  color:#f08804;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.header__sprite {
+  background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/gno/sprites/nav-sprite-global-2x-hm-dsk-reorg._CB405936311_.png);
+  background-size: 350px;
+  background-position: -10px -340px;
+  width: 38px;
+  height: 26px;
+}
+
+.header__basketText {
+  margin-top: 12px;
+}
